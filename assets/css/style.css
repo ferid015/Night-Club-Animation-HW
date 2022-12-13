@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#general {
+    width: 100%;
+    height: 667px;
+    position: relative;
+    overflow: hidden;
+}
+
+#club {
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/nighbg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+}
+
+#logo {
+    width: 500px;
+    height: 400px;
+    background-image: url('https://yuptechnology.com/upload/logo/logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 50%;
+    top: -300px;
+    transform: translate(-50%, -50%);
+    animation-name: logo;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes logo {
+    from {
+        top: -300px;
+    }
+
+    to {
+        top: 350px;
+    }
+
+
+}
+
+
+
+
+#girl_1 {
+    width: 500px;
+    height: 350px;
+    background-image: url('https://media3.giphy.com/media/gFVVfJblZEnlnuXwp7/giphy.gif?cid=790b76118219febe9969c1b429fc7c9350264f11d52ef8ef&rid=giphy.gif&ct=s');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 20px;
+    left: -350px;
+    animation-name: girl_1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes girl_1 {
+    from {
+        left: -350px;
+    }
+
+    to {
+        left: 100%;
+    }
+
+}
+
+#girl_2 {
+    width: 500px;
+    height: 350px;
+    background-image: url('https://thumbs.gfycat.com/GrippingJampackedEthiopianwolf.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 20px;
+    right: -450px;
+    animation: girl_2;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes girl_2 {
+    from {
+        right: -450px;
+    }
+
+    to {
+        right: 100%;
+    }
+}
+
+
+
+#girl_3 {
+    width: 500px;
+    height: 300px;
+    background-image: url('https://thumbs.gfycat.com/GraciousDependableHoiho.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 50px;
+    right: -500px;
+    animation-name: girl_3;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes girl_3 {
+    from {
+        right: -500px;
+    }
+
+    to {
+        right: 10%;
+    }
+}
+
+
+#girl_4 {
+    width: 500px;
+    height: 300px;
+    background-image: url('https://thumbs.gfycat.com/SimplisticRevolvingFly.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 70px;
+    left: -250px;
+    animation-name: girl_4;
+    animation-duration: 9s;
+
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes girl_4 {
+    from {
+        left: -250px;
+    }
+
+    to {
+        left: 100%;
+    }
+}
+
+
+#boy_1 {
+    width: 500px;
+    height: 350px;
+    background-image: url('https://thumbs.gfycat.com/AridDrearyAquaticleech.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 10px;
+    left: -550px;
+    animation-name: boy_1;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+}
+
+
+
+
+@keyframes boy_1 {
+    from {
+        left: -550px;
+    }
+
+    to {
+        left: 30%;
+    }
+}
